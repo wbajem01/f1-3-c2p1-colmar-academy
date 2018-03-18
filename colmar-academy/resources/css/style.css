@@ -1,0 +1,530 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+p {
+  padding: 0.5rem 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+}
+
+#navigation .logo {
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin-left: 1.5rem;
+}
+
+#navigation .logo img {
+  height: 2rem;
+}
+
+#navigation .logo span {
+  font-weight: bold;
+}
+
+#navigation .nav ul {
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+#navigation .nav a {
+  white-space: nowrap;
+  padding-left: 1rem;
+}
+
+#navigation .mobile {
+  display: none;
+}
+
+#banner {
+  display: flex;
+  flex-direction: row;
+  height: 36rem;
+  width: 100%;
+  background-color: lightgray;
+}
+
+#banner .banner-image {
+  height: 32rem;
+  margin: 2rem;
+}
+
+#banner .banner-image img {
+  max-height: 100%;
+  width: 48rem;
+}
+
+#banner .banner-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 32rem;
+  width: 28rem;
+  margin: 2rem 0;
+}
+
+#banner .banner-detail-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 20rem;
+  padding-bottom: 2rem;
+}
+
+#banner .banner-detail-text {
+  font-size: 1.5rem;
+  width: 20rem;
+  padding-bottom: 2rem;
+}
+
+#banner .banner-detail-control {
+  background-color: #616D7E;
+  width:19rem;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+#banner .banner-detail .banner-detail-control a {
+  color: white;
+}
+
+#campus-information {
+  display: flex;
+  background-color: white;
+}
+
+#campus-information .campus-life {
+  width: 60%;
+  margin: 1.5rem 2rem;
+}
+
+#campus-information .campus-life-text h2 {
+  text-align: left;
+  padding-top: 2rem;
+}
+
+#campus-information .campus-life-text p {
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+#campus-information .campus-life-text span {
+  font-size: 0.75rem;
+}
+
+#campus-information .campus-life
+                    .campus-life-image {
+  width: auto;
+}
+
+#campus-information .campus-life-image img {
+  height: 100%;
+  width: 50rem;
+  padding-bottom: 1rem;
+}
+
+#campus-information .campus-detail {
+  width: 40%;
+  margin: 0.5rem 0;
+}
+
+#campus-information .campus-detail .orientation,
+                                   .campus,
+                                   .guest {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+
+#campus-information .campus-detail .orientation .mobile,
+                                   .campus .mobile,
+                                   .guest .mobile {
+  display: none;
+}
+
+#campus-information .campus-detail .orientation img,
+                                   .campus img,
+                                   .guest img {
+    height: 35%;
+    width: 35%;
+}
+
+#campus-information .campus-detail .campus-detail-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+#campus-information .campus-detail .campus-detail-text span:nth-child(1) {
+  font-weight: bold;
+}
+
+#campus-information .campus-detail .campus-detail-text a {
+  color: blue;
+}
+
+#campus-information .campus-detail .campus-detail-text p {
+  margin: 0.5rem 0;
+}
+
+#course-information {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+}
+
+#course-information .course-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+#course-information .course-boxes img {
+  height: auto;
+  width: 19rem;
+}
+
+#course-information .course-boxes h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#course-information h2 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+#course-information .course-box-one,
+                    .course-box-two,
+                    .course-box-three,
+                    .course-box-four,
+                    .course-box-five,
+                    .course-box-six  {
+  display: flex;
+  flex-direction: column;
+  height: 18rem;
+  width: 19rem;
+}
+
+#course-information .course-box-one .course-boxes-text,
+                    .course-box-two .course-boxes-text,
+                    .course-box-three .course-boxes-text,
+                    .course-box-four .course-boxes-text,
+                    .course-box-five .course-boxes-text,
+                    .course-box-six .course-boxes-text  {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+#course-information .course-box-one .course-boxes-text span,
+                    .course-box-two .course-boxes-text span,
+                    .course-box-three .course-boxes-text span,
+                    .course-box-four .course-boxes-text span,
+                    .course-box-five .course-boxes-text span,
+                    .course-box-six .course-boxes-text span  {
+  display: block;
+  font-weight: normal;
+  margin-top: 0.5rem;
+}
+
+#thesis-exhibit {
+  height: auto;
+  width: 100%;
+}
+
+#thesis-exhibit h1 {
+  text-align: center;
+}
+
+#thesis-exhibit .thesis-exhibit-content {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.25;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+#thesis-exhibit .thesis-video {
+  width: 50%;
+  resize: both;
+  overflow: hidden;
+}
+
+#thesis-exhibit .thesis-video span {
+  display: block;
+  width: 40%;
+  padding-top: 1.5rem;
+}
+
+#thesis-exhibit .thesis-articles {
+  width: 48%;
+  margin-left: 0.5rem;
+}
+
+#thesis-exhibit .thesis-articles .article-box-one {
+  margin: 0;
+  background-color: lightgray;
+}
+
+
+#thesis-exhibit .thesis-articles img {
+  height: 15%;
+  width: 20%;
+  padding: 1rem;
+}
+
+#thesis-exhibit .thesis-articles .article-box-one,
+                                 .article-box-two {
+  display: flex;
+}
+
+#thesis-exhibit .thesis-articles .article-box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.75rem;
+  height: 4rem;
+  width: 100%;
+}
+
+#footer p {
+  margin-left: 1.5rem;
+}
+
+#footer ul {
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+#footer a {
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 780px) {
+  #navigation .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  #navigation .logo {
+    display: none;
+  }
+
+  #navigation .nav {
+    display: none;
+  }
+
+  #navigation .mobile ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #banner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  #banner .banner-image {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  #banner .banner-image img {
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  #banner .banner-detail {
+    height: 100%;
+    width: 95%;
+    margin-left: 1rem;
+  }
+
+  #banner .banner-detail .banner-detail-text {
+    line-height: 2rem;
+  }
+
+  #banner .banner-detail .banner-detail-control {
+    width: 97.5%;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+  }
+
+  #campus-information .campus-life {
+    display: none;
+  }
+
+  #campus-information .campus-detail {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+
+  #campus-information .campus-detail .orientation,
+                                     .campus,
+                                     .guest {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0;
+  }
+
+  #campus-information .campus-detail .orientation .desktop,
+                                     .campus .desktop,
+                                     .guest .desktop {
+    display: none;
+  }
+
+  #campus-information .campus-detail .orientation .mobile,
+                                     .campus .mobile,
+                                     .guest .mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #campus-information .campus-detail .orientation img.mobile,
+                                     .campus img.mobile,
+                                     .guest img.mobile {
+    height: 93%;
+    width: 93%;
+    padding: 1rem;
+  }
+
+  #campus-information .campus-detail .campus-detail-text {
+    margin-left: 2rem;
+  }
+
+  #campus-information .campus-detail .campus-detail-text span {
+  font-size: 1.25rem;
+}
+
+  #course-information h2 {
+    background-color: white;
+  }
+
+  #course-information .course-boxes {
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #course-information .course-boxes .course-box-one,
+                      .course-boxes .course-box-two,
+                      .course-boxes .course-box-three,
+                      .course-boxes .course-box-four,
+                      .course-boxes .course-box-five,
+                      .course-boxes .course-box-six  {
+    height: auto;
+    width: 90%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 0 1.5rem 1rem;
+    background-color: lightgray;
+  }
+
+  #course-information .course-boxes .course-box-one img,
+                      .course-boxes .course-box-two img,
+                      .course-boxes .course-box-three img,
+                      .course-boxes .course-box-four img,
+                      .course-boxes .course-box-five img,
+                      .course-boxes .course-box-six img  {
+    display: none;
+  }
+
+  #course-information .course-boxes .course-box-one p,
+                      .course-boxes .course-box-two p,
+                      .course-boxes .course-box-three p,
+                      .course-boxes .course-box-four p,
+                      .course-boxes .course-box-five p,
+                      .course-boxes .course-box-six p  {
+    display: none;
+  }
+
+  #course-information .course-boxes .course-box-one span,
+                      .course-boxes .course-box-two span,
+                      .course-boxes .course-box-three span,
+                      .course-boxes .course-box-four span,
+                      .course-boxes .course-box-five span,
+                      .course-boxes .course-box-six span  {
+    display: none;
+  }
+
+  #thesis-exhibit .thesis-exhibit-content {
+    padding: 0 0 1.5rem 0;
+  }
+
+  #thesis-exhibit .thesis-articles {
+    display: none;
+  }
+
+  #thesis-exhibit .thesis-video {
+    width: 100%;
+  }
+
+  #thesis-exhibit .thesis-exhibit-content .thesis-video p {
+    display: none;
+  }
+
+  #thesis-exhibit .thesis-exhibit-content .thesis-video span {
+    display: none;
+  }
+
+  #footer p {
+    font-size: 1.25rem;
+    padding: 1rem 0;
+  }
+
+  #footer ul {
+    display: none;
+  }
+}
